@@ -17,15 +17,12 @@ public class Ex3 {
             t--;
         }
     }
-
     private static String[] splitWord(String str) {
         if (str != null) {
             return str.split("\\s+");
         }
         return null;
     }
-
-
     private static String[] sortWord(String str) {
         var a = splitWord(str);
         if (str != null) {
@@ -41,7 +38,6 @@ public class Ex3 {
         }
         return a;
     }
-
     private static void showResult(String[] str) {
         if (str != null) {
             for (var read :
